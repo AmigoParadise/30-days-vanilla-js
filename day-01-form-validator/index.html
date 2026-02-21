@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-time Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Create a New Account</h2>
+
+        <!--Success Notification (Hidden by default)-->
+        <div id="alertBox" class="alert-box success-msg">
+            Registration Successful!
+        </div>
+
+        <form action="" id="registrationForm">
+            <!--Username: Min 3 Character-->
+            <div class="form-control">
+                <label for="username">Username</label>
+                <!--Using Standart text type-->
+                <input type="text" id="username" placeholder="Enter username">
+                <small>Error message here</small>
+            </div>
+
+            <!--Email: Regex Validation-->
+            <div class="form-control">
+                <label for="email">Email</label>
+                <!--Avoiding type="email" per constraints-->
+                <input type="text" id="email" placeholder="example@email.com">
+                <small>Error message here</small>
+            </div>
+
+            <!--Password: Min 6 Character-->
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Minimum 6 characters">
+                <small>Error message here</small>
+            </div>
+
+            <!--Confirm Password: Must match password-->
+            <div class="form-control">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" placeholder="Repeat your password">
+                <small>Error message here</small>
+            </div>
+
+            <button type="submit">Register Now</button>
+        </form>
+    </div>
+</body>
+</html>
