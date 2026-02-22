@@ -18,7 +18,7 @@ Below is the list of projects completed during this challenge. You can check the
 | Day | Project Name | Links |
 | :--- | :--- | :--- |
 | 01 | **Form Validator** | [Code](https://github.com/AmigoParadise/30-days-vanilla-js/tree/main/day-01-form-validator) \| [Live Demo](https://amigoparadise.github.io/30-days-vanilla-js/day-01-form-validator/) |
-| 02 | **(Upcoming)** | [Code](#) \| [Live Demo](#) |
+| 02 | **Movie Seat Booking** | [Code](https://github.com/AmigoParadise/30-days-vanilla-js/tree/main/day-02-movie-seat-booking) \| [Live Demo](https://amigoparadise.github.io/30-days-vanilla-js/day-02-movie-seat-booking/) |
 | 03 | **(Upcoming)** | [Code](#) \| [Live Demo](#) |
 
 ---
